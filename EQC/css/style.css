@@ -1,0 +1,137 @@
+#lirelasuite1, #lirelasuite2, #lirelasuite3, #mi1, #mi2, #mi3{
+	display:none;}
+.modalint{
+	opacity: 0.8;}
+#contact{
+	background:  linear-gradient(180deg,#262626 ,#171717 280px);
+	min-height:  100px;
+}
+
+body{
+	background:linear-gradient(180deg,#000 0,#2e2e2e 150px,#000 500px);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+h1 , h2 , h3 , p , pre , span{
+	color: white;
+}
+
+
+.lv{
+	width:1px;
+	height:100px;
+	border:none;
+	background:#CACACA;
+}
+
+
+#collapsebuttons{
+	position:center;
+}
+
+
+#fixed{
+	position:fixed ;
+	top:30%;
+}
+
+#logo{
+    margin-left: 50px;   
+    margin-top: 20px;
+}
+
+ #header {
+	background-image: url("../images/header.jpeg");
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size: cover;
+	max-width: 100%;
+  	min-height:500px;
+}
+.select{
+   margin-top: 100px;
+    margin-right: 500px;
+}
+
+
+
+ #map {
+	background-image: url("../images/eqcint.jpeg");
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size: cover;
+	width: 100%;
+  	line-height:700px;
+} 
+
+.main-menu:hover,nav.main-menu.expanded {
+	width:300px;
+	overflow:visible;
+	background: #151515;
+	opacity: 0.8;
+}
+
+.main-menu {
+	position:absolute;
+	top:0;
+	bottom:0;
+	height:45%;
+	left:0;
+	width:30px;
+	overflow:hidden;
+	-webkit-transition:width .05s linear;
+	transition:width .05s linear;
+	-webkit-transform:translateZ(0) scale(1,1);
+	z-index:1000;
+}
+
+.main-menu>ul {
+	margin:5px 0;
+}
+
+.main-menu li {
+	position:relative;
+	display:flex;
+	width:250px;
+}
+
+.main-menu li>a {
+	position:relative;
+	display:table;
+	border-collapse:collapse;
+	border-spacing:0;
+	color:#999;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration:none;
+	-webkit-transform:translateZ(0) scale(1,1);
+	-webkit-transition:all .1s linear;
+	transition:all .1s linear;  
+}
+
+.main-menu .nav-text {
+	position:relative;
+	display:table-cell;
+	vertical-align:middle;
+	width:270px !important;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+a:hover,a:focus {
+	text-decoration:none;
+    color:#5fa2db;
+}
+
+nav ul,nav li {
+	outline:0;
+	margin:0;
+	padding:0;
+}
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.nav-text:hover,.has-subnav:hover {
+	color:#5fa2db;
+}
+
+
